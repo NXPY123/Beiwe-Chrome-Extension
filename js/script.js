@@ -157,9 +157,9 @@ function imgsToBlock(array, data, _callback) {
 function removeLoadingDiv() {
   // get all images from the website and hide them
   let images = document.querySelectorAll('img');
-  for (let i = 0; i < images.length; i++) {
-    images[i].style.display = "none";
-  }
+  //for (let i = 0; i < images.length; i++) {
+    //images[i].style.display = "none";
+  //}
   // get the loading div and remove it
   document.querySelector('#beiwe-loading-div-parent').remove();
   console.log(`removed loading div`);
